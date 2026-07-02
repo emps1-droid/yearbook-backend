@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "prisma generate",
+    "build": "prisma generate && tsc -b && node index.js",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
