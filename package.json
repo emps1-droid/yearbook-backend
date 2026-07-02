@@ -1,21 +1,22 @@
 {
   "name": "yearbook-backend",
   "version": "1.0.0",
-  "description": "API REST do Yearbook Digital — IFNMG Salinas 2026",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emps1-droid/yearbook-backend.git"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emps1-droid/yearbook-backend/issues"
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "express": "^4.21.2"
   },
-  "homepage": "https://github.com/emps1-droid/yearbook-backend#readme"
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
 }
